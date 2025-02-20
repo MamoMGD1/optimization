@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimization</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div style="color: gray; margin-bottom: 5px;">Click on a tile to add a hospital, right click to add houses!</div>
+    <table border="">
+        <tr>
+            <td>Number Of Houses</td>
+            <td>Number Of Hospitals</td>
+            <td>Total Cost</td>
+        </tr>
+        <tr>
+            <td id="houseNumber">0</td>
+            <td id="hospitalNumber">0</td>
+            <td id="totalCost">0</td>
+        </tr>
+    </table>
+    <div>
+        <button onclick="optimize()">Local Opt.</button>
+        <button onclick="tryMore()" disabled>Global Opt.</button>
+    </div>
+    <div class="city">
+        <!--content will dynamically be added-->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
