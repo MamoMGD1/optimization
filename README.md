@@ -19,9 +19,13 @@ This project simulates a **10x10 city grid** where houses and hospitals are plac
 
 ## 🔬 Future Improvements
 🚀 Implement **Genetic Algorithms** for better optimization 🔍
+
 🚀 Add different **distance weight factors** for varying priority zones ⚖️
+
 🚀 Expand the grid size dynamically 📏
+
 🚀 Improve visualization with heatmaps 🌡️
+
 
 ## 🤝 Contributions
 Feel free to fork the project, suggest improvements, and contribute to making this **hospital placement algorithm smarter**! 🏥💡
