@@ -162,6 +162,7 @@ function findBetterSolution(){
     });
 }
 async function tryMore(){
+    document.getElementById("disc").textContent="Please Wait Until Searching Is Done!";
     let observations = [];
     hospitals.forEach(hospital => {
         observations.push({iIndex: hospital.iIndex, jIndex: hospital.jIndex});
@@ -202,4 +203,5 @@ async function tryMore(){
         cityBluePrint[observations[i].iIndex][observations[i].jIndex].tile.classList.add("hospital");
     }
     updateTotalCost();
+    document.getElementById("disc").textContent="Optimization Finished Successfully!";
 }
